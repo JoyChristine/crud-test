@@ -3,7 +3,7 @@ module.exports = app => {
 
     var router = require("express").Router();
 
-    // Create a new Tutorial feature 1
+    //  feature 1
     router.post("/", tutorials.create);
 
     // // Retrieve all Tutorials feature 2 
